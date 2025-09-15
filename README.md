@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+📝 Blog Frontend – Tech Challenge Fase 2
+💡 Descrição do Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o frontend da aplicação de blog educacional, desenvolvido para professores da rede pública.
+Aqui é possível interagir com o backend (API RESTful) para criar, listar, editar e excluir postagens de forma prática e intuitiva.
 
-## Available Scripts
+O objetivo foi integrar a interface do usuário ao backend já existente, garantindo usabilidade, responsividade e experiência fluida.
 
-In the project directory, you can run:
+🏗️ Arquitetura da Solução
 
-### `npm start`
+Frontend: React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estilização: Styled-components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Roteamento: React Router DOM
 
-### `npm test`
+Comunicação com Backend: Axios (REST API)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend: Blog Backend – Tech Challenge Fase 2
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📂 Estrutura de Pastas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+blog-frontend/
+├── public/             # Arquivos estáticos
+├── src/
+│   ├── assets/         # Imagens, ícones e outros arquivos estáticos
+│   ├── components/     # Componentes reutilizáveis (UI)
+│   ├── pages/          # Páginas principais do app
+│   ├── services/       # Configuração de API (axios)
+│   ├── styles/         # Estilos globais e temas
+│   ├── App.js          # Componente raiz
+│   └── index.js        # Ponto de entrada
+└── package.json
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚙️ Como Executar o Projeto
 
-### `npm run eject`
+Clonar o repositório:
+git clone https://github.com/seu-repositorio/blog-frontend.git
+cd blog-frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Instalar dependências:
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Executar em ambiente de desenvolvimento:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Acessar no navegador:
+http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+✅ Funcionalidades
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📌 Listagem de postagens
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✏️ Criação de nova postagem
 
-### Code Splitting
+🗑️ Exclusão de postagens
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔍 Busca de postagens por título ou conteúdo
 
-### Analyzing the Bundle Size
+📱 Interface responsiva
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+🛠️ Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React.js
 
-### Advanced Configuration
+Styled-components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React Router DOM
 
-### Deployment
+Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+👥 Equipe & Créditos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por:
+
+Bruna da Silva Moura
+
+Carolina de Sousa Rodrigues Moreira
+
+Fernanda Vieira Magalhães
+
+
+🚀 Próximos Passos
+
+Melhorar testes de integração
+
+Implementar autenticação de usuários
+
+Adicionar paginação de postagens
